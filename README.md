@@ -16,6 +16,7 @@ workshop
 ---------
 
 * Gruntのもっと踏み込んだ環境構築
+ * [Web制作で面倒な作業を自動化するビルドツール、Grunt v0.4 入門｜Web Design KOJIKA17](http://kojika17.com/2013/03/grunt.js-memo.html)
  * ライブリロード
  * ローカルサーバ
  * [Gruntを使ってSass(SCSS) / Compassをコンパイルしてみる | MONSTER DIVE【モンスターダイブ】](http://www.monster-dive.com/blog/web_creative/20131124_001092.php)

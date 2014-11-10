@@ -23,9 +23,8 @@ workshop
  * [CSSの常識が変わる！「Compass」、基礎から応用まで！](http://liginc.co.jp/designer/archives/11623)
 
 
-２部 「発表プレゼン」
-
-* nakagaw「UIデザイナー不要論について」
+* ２部 「発表プレゼン」
+ * nakagaw「UIデザイナー不要論について」
 
 
 

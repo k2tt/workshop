@@ -97,7 +97,7 @@ module.exports = (grunt)->
     sass: #sassコンパイル
       dist:
         options:
-          #compass: true #compassを有効に
+          compass: true #compassを有効に
           style: 'expanded' #_devの段階では標準書式で出力する
           #sourcemap: 'none'
         files:[

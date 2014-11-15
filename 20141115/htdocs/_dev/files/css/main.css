@@ -87,11 +87,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  padding: 100px;
+}
+
 .block {
   display: block;
   -webkit-box-shadow: 0 0 10px #a82f34;
   -moz-box-shadow: 0 0 10px #a82f34;
   box-shadow: 0 0 10px #a82f34;
+}
+
+.box01 {
+  float: left;
+  padding: 10px;
+}
+
+.box02 {
+  float: left;
+  padding: 10px;
+  border: 1px solid #111;
+  /* borderだよ */
+}
+
+.box03 {
+  float: left;
+  padding: 10px;
+}
+
+.box01 {
+  width: 100px;
+  /* これはでる */
+  background-color: yellow;
+}
+
+.box02,
+.box03 {
+  width: 200px;
+  /* これはでる */
+  background-color: magenta;
 }
 
 .btn {

@@ -39,6 +39,14 @@ module.exports = (grunt)->
           },
           {
             expand: true
+            cwd: '_lib/html5-boilerplate/css/'
+            src: ["**/*.css"]
+            dest: '<%= dir.dev %><%= dir.css %>'
+            filter: 'isFile'
+            dot: false
+          },
+          {
+            expand: true
             cwd: '_lib/html5-boilerplate/'
             src: ["index.html"]
             dest: '<%= dir.dev %>'
@@ -91,7 +99,7 @@ module.exports = (grunt)->
         options:
           #compass: true #compassを有効に
           style: 'expanded' #_devの段階では標準書式で出力する
-          sourcemap: 'none'
+          #sourcemap: 'none'
         files:[
           {
             expand: true

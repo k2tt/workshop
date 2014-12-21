@@ -67,7 +67,7 @@ module.exports = (grunt)->
           { #css
             expand: true
             cwd: "<%= dir.dev %><%= dir.css %>"
-            src: ["**/*.css"]
+            src: ["**/main_min.css"]
             dest: "<%= dir.release %><%= dir.css %>"
             filter: 'isFile'
             dot: false
@@ -172,4 +172,4 @@ module.exports = (grunt)->
     grunt.task.run('clean:init')
 
   grunt.registerTask "default", ['connect','watch'] #コーディング時
-  grunt.registerTask "release", ['uglify','clean:build','copy:build'] #公開時に実行するタスク
+  grunt.registerTask "release", ['uglify','cssmin','clean:build','copy:build'] #公開時に実行するタスク
